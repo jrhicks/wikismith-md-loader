@@ -1,0 +1,32 @@
+{
+  "name": "wikismith-md-loader",
+  "version": "0.0.9",
+  "description": "A markdown loader with filesystem side-effects.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d ."
+  },
+  "keywords": [
+    "markdown",
+    "marked-ast",
+    "yaml",
+    "jekyll",
+    "webpack",
+    "loader"
+  ],
+  "author": "Jeffrey Hicks <jrhicks@cteh.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/jrhicks/wikismith-md-loader",
+  "dependencies": {
+    "dasherize": "^2.0.0",
+    "front-matter": "^2.0.6",
+    "loader-utils": "^0.2.12",
+    "marked-ast": "^0.3.0",
+    "node-uuid": "^1.4.7",
+    "slug": "^0.9.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0"
+  }
+}
